@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Nutrition Recommender App</string>
+
+    <string-array name="my_list">
+
+        <item>My Diet Plan</item>
+
+        <item>Diet Plan According to Health</item>
+        <item>Diabetes</item>
+        <item>Heart Patient</item>
+        <item>Dehydration</item>
+        <item>Iron Deficiency Anemia</item>
+        <item>Calcium Deficiency</item>
+        <item>Ketosis</item>
+        <item>Xerophthalmic (Vitamin A)</item>
+        <item>Rickets (Vitamin D)</item>
+        <item>Beriberi (Thiamin)</item>
+        <item>Pellagra (Niacin)</item>
+        <item>Scurry (Vitamin C)</item>
+        <item>VKDB (Vitmain K)</item>
+        <item>Weight Gain</item>
+        <item>Weight Loss</item>
+
+        <item>List of Diet Plan</item>
+        <item>Ketogenic Diet</item>
+        <item>Vegetarian Diet</item>
+        <item>Vegan Diet</item>
+        <item>Weight Watchers Diet</item>
+        <item>Atkins Diet</item>
+        <item>The Zone Diet</item>
+        <item>Raw Food Diet</item>
+        <item>Mediterranean Diet</item>
+
+        <item>Fitness Plan</item>
+        <item>Body Building Diet</item>
+        <item>Science Based Body Building Diet</item>
+        <item>Diet for Abs</item>
+        <item>30 Day BeachBody Diet</item>
+        <item>80 Day Obsession Diet</item>
+        <item>Diet for Biceps</item>
+        <item>Military Diet Plan</item>
+        <item>Muscle Diet Plan</item>
+
+        <item>Calorie Calculator</item>
+
+        <item>Article</item>
+
+        <item>Food Choices</item>
+
+        <item>Fruits</item>
+
+        <item>Dry Fruits</item>
+
+        <item>Vegetables</item>
+
+        <item>Meat</item>
+
+        <item>Beans</item>
+
+        <item>Beverages</item>
+
+        <item>Tips for Breakfast</item>
+
+        <item>Tips for Lunch</item>
+
+        <item>Tips for Dinner</item>
+
+    </string-array>
+
+</resources>

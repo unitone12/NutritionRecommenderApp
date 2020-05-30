@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nutritionrecommenderapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ForgotPassword"></activity>
+        <activity
+            android:name=".MyDietPlan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ArticleImage"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ArticleView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Article"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignUp"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Splash"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FitnessView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FitnessPlan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DietPlan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ListofDietPlan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CalorieCalculator"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HealthPlan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

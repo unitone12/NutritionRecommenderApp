@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "791329978361",
+    "firebase_url": "https://nutritionrecommender-853cb.firebaseio.com",
+    "project_id": "nutritionrecommender-853cb",
+    "storage_bucket": "nutritionrecommender-853cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:791329978361:android:8f921c14d27cfb1793af28",
+        "android_client_info": {
+          "package_name": "com.example.nutritionrecommenderapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "791329978361-u3n2bds02ld99hh7f4qdnepha3eu4n53.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nutritionrecommenderapp",
+            "certificate_hash": "eb2fdbf21882c2bad5f20490d724204b200ed6e6"
+          }
+        },
+        {
+          "client_id": "791329978361-nqkcg5d8h5jcd6q1gg3ql4kfhuufni86.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhKyM4gtlIwBzDWi4Kh9X5jD4d1IldHDE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "791329978361-nqkcg5d8h5jcd6q1gg3ql4kfhuufni86.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+
+
+    <ListView
+        android:id="@+id/list_search"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/logout"
+        android:id="@+id/logout"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="25dp">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo1" />
+
+
+            <TextView style="@style/text" />
+
+            <Button
+                android:id="@+id/my_plan"
+                style="@style/my_plan" />
+
+
+            <Button
+                android:id="@+id/health"
+                style="@style/health" />
+
+            <Button
+                android:id="@+id/list"
+                style="@style/list" />
+
+            <Button
+                android:id="@+id/fintess"
+                style="@style/fitness" />
+
+            <Button
+                android:id="@+id/calorie"
+                style="@style/calorie" />
+
+            <Button
+                android:id="@+id/article"
+                style="@style/article" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

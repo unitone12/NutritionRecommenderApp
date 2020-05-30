@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FitnessView"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:src="@drawable/back_btn"
+            android:layout_weight="1"
+            android:id="@+id/back_btn"
+            />
+
+        <ProgressBar
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_weight="8"
+            android:id="@+id/progress_ar"
+            android:visibility="invisible"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:src="@drawable/home"
+            android:layout_weight="1"
+            android:id="@+id/home_btn"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        style="@style/fitness_url"
+        android:id="@+id/url_fitness"
+        />
+
+    <ImageView
+        style="@style/fintess_img"
+        android:id="@+id/img_fitness"
+        />
+
+</LinearLayout>

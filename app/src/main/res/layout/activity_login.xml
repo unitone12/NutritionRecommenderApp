@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".Login"
+    android:padding="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:src="@drawable/login_logo"
+            android:layout_weight="2"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/edit_dgn"
+            android:layout_weight="1"
+            android:hint="Email"
+            android:textColorHint="@color/textclr"
+            android:id="@+id/email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="15dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/edit_dgn"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:hint="Password"
+            android:textColorHint="@color/textclr"
+            android:id="@+id/passwrod"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="  Forgot Password?"
+            android:textSize="20sp"
+            android:textColor="@color/textclr"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:id="@+id/forget"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button_dgn"
+            android:text="Login"
+            android:textAllCaps="false"
+            android:textColor="@color/btntext"
+            android:layout_weight="1"
+            android:id="@+id/login"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't Have an Account? "
+                android:textColor="@color/textclr"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:textColor="@color/textclr"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/signup"
+                />
+
+        </LinearLayout>
+        <com.github.ybq.android.spinkit.SpinKitView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            android:id="@+id/progress"
+            style="@style/SpinKitView.Small.DoubleBounce"
+            app:SpinKit_Color="@color/prog"
+            android:layout_marginBottom="15dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
